@@ -7,7 +7,7 @@ import java.sql.Statement;
 class BatchProcessingEx {
 	public static void main(String args[]) throws Exception {
 		
-		Class.forName("com.mysql.cj.jdbc.Dri");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sundaybatch", "root", "root");
 
